@@ -1,10 +1,6 @@
 'use strict';
 
-app.component(
-    'guide', {
-        templateUrl: 'views/guide.html',
-        controllerAs: 'guide',
-        controller: function ($scope,$state) {
+app.controller('guideController',function ($scope,$state) {
             var self = this;
 
             self.$onInit = function() {
@@ -23,11 +19,8 @@ app.component(
                     "height":height
                 });
             }
-            
             $scope.goHome=function() {
                 $state.go('app.home');
             }
-
         }
-    }
 );

@@ -10,11 +10,12 @@
                     }
                 }
             })
-            .state('guide', {
-                url: '/guide',
+            .state('app.guide', {
+                url: 'guide',
                 views: {
-                    'shell': {
-                        templateUrl: '../views/guide.html'
+                    'content': {
+                        templateUrl: '../views/guide.html',
+                        controller: 'guideController'
                     }
                 }
             })
