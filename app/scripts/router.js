@@ -9,6 +9,12 @@
                     'shell': 'shell'
                 }
             })
+            .state('app.guide', {
+                url: 'guide',
+                views: {
+                    'content': 'guide'
+                }
+            })
             .state('app.home', {
                 url: 'home',
                 views: {

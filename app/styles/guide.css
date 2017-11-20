@@ -1,0 +1,8 @@
+#guide-background{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-image: url("../images/guideBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
