@@ -4,22 +4,21 @@ app.component(
     'guide', {
         templateUrl: 'views/guide.html',
         controllerAs: 'guide',
-        controller: function ($state,$window) {
+        controller: function ($state) {
             var self = this;
 
             self.$onInit = function() {
                 $("header").hide();
-                $window.onresize=function () {
-                    console.log("resize");
+                window.onresize=function () {
                     resizeToCover();
                 }
-                // $window.trigger("resize");
+                $(window).trigger("resize");
             };
 
             function resizeToCover(){
                 var height = $(window).height();
                 var width = $(window).width();
-                $("#guide-background").css({
+                $(".guide-background").css({
                     "width":width,
                     "height":height
                 });
