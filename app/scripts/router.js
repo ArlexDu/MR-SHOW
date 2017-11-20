@@ -1,6 +1,5 @@
 'use strict';
     app.config(function($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise("/");
         $stateProvider
 
         .state('app', {
@@ -41,5 +40,5 @@
             })
         ;
 
-        $urlRouterProvider.otherwise('/');
+        $urlRouterProvider.otherwise('/guide');
     });
