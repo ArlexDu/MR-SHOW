@@ -4,7 +4,7 @@ app.component(
     'guide', {
         templateUrl: 'views/guide.html',
         controllerAs: 'guide',
-        controller: function ($state) {
+        controller: function ($scope,$state) {
             var self = this;
 
             self.$onInit = function() {
@@ -18,10 +18,14 @@ app.component(
             function resizeToCover(){
                 var height = $(window).height();
                 var width = $(window).width();
-                $(".guide-background").css({
+                $(".guide-main").css({
                     "width":width,
                     "height":height
                 });
+            }
+            
+            $scope.goHome=function() {
+                $state.go('app.home');
             }
 
         }

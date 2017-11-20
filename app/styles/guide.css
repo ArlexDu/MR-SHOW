@@ -1,15 +1,30 @@
-.guide-background{
+.guide-main{
     position: absolute;
     top:0px;
     left: 0px;
-    background-image: url("../images/guideBg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+}
+.guide-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:-1;
+    background-image: url("../images/guideBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: guidebg-size 20s linear infinite alternate;
+}
+
+@keyframes guidebg-size {
+    0% {transform: scale(1)}
+    100% {transform: scale(1.2)}
 }
 
 .guide-content{
@@ -55,6 +70,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    cursor: pointer;
 }
 
 .animation-image{
@@ -91,4 +107,6 @@
 .guide-go:hover{
     animation:guide-size 1.3s linear infinite;
 }
+
+
 
