@@ -6,14 +6,15 @@
                 abstract: true,
                 views: {
                     'shell': {
-                        templateUrl: '../views/shell.html'
+                        templateUrl: '../views/shell.html',
+                        controller: 'shellController'
                     }
                 }
             })
-            .state('app.guide', {
-                url: 'guide',
+            .state('guide', {
+                url: '/guide',
                 views: {
-                    'content': {
+                    'shell': {
                         templateUrl: '../views/guide.html',
                         controller: 'guideController'
                     }
@@ -23,7 +24,8 @@
                 url: 'home',
                 views: {
                     'content': {
-                        templateUrl: '../views/home.html'
+                        templateUrl: '../views/home.html',
+                        controller: 'homeController'
                     }
                 }
             })
@@ -52,6 +54,7 @@
                 }
             })
         ;
+
         $urlRouterProvider.otherwise('/guide');
 
     });

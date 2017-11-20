@@ -4,7 +4,7 @@ app.controller('guideController',function ($scope,$state) {
             var self = this;
 
             self.$onInit = function() {
-                $("header").hide();
+                // $("header").hide();
                 window.onresize=function () {
                     resizeToCover();
                 }
