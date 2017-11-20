@@ -107,7 +107,7 @@ gulp.task('bower', function () {
 ///////////
 
 gulp.task('clean:dist', function () {
-  del(['dist']);
+  return del(['dist']);
 });
 
 gulp.task('copy:views', function () {
@@ -137,7 +137,6 @@ gulp.task('copy:fonts', function () {
         .pipe(gulp.dest('./dist/fonts'));
     gulp.src('./bower_components/bootstrap/dist/fonts/**/*.{ttf,woff,eof,svg}*')
         .pipe(gulp.dest('./dist/fonts'));
-
 });
 
 gulp.task('build', ['clean:dist'], function () {
