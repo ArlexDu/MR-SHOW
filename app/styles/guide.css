@@ -39,15 +39,18 @@
 }
 
 .guide-title1{
+    font-family: 'msyh';
     font-size: 48px;
 }
 
 .guide-title2{
     margin-top: 15px;
+    font-family: 'SIMYOU';
     font-size: 30px;
 }
 
 .guide-subtitle{
+    font-family: 'msyh';
     font-size: 18px;
 }
 
