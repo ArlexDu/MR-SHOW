@@ -9,18 +9,16 @@ app.component(
 
             self.$onInit = function() {
                 $("header").hide();
-                $window.onresize() {
+                $window.onresize=function () {
                     console.log("resize");
                     resizeToCover();
-                };
+                }
                 // $window.trigger("resize");
             };
 
             function resizeToCover(){
-                var height = $(document).height();
-                var width = $(document).width();
-                console.log("w:"+width);
-                console.log("h:"+height);
+                var height = $(window).height();
+                var width = $(window).width();
                 $("#guide-background").css({
                     "width":width,
                     "height":height
