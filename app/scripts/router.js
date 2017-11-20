@@ -1,44 +1,56 @@
 'use strict';
     app.config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
-
         .state('app', {
                 url:'/',
+                abstract: true,
                 views: {
-                    'shell': 'shell'
+                    'shell': {
+                        templateUrl: '../views/shell.html'
+                    }
                 }
             })
-            .state('app.guide', {
-                url: 'guide',
+            .state('guide', {
+                url: '/guide',
                 views: {
-                    'content': 'guide'
+                    'shell': {
+                        templateUrl: '../views/guide.html'
+                    }
                 }
             })
             .state('app.home', {
                 url: 'home',
                 views: {
-                    'content': 'home'
+                    'content': {
+                        templateUrl: '../views/home.html'
+                    }
                 }
             })
             .state('app.customer', {
                 url: 'customer',
                 views: {
-                    'content': 'customer'
+                    'content': {
+                        templateUrl: '../views/customer.html'
+                    }
                 }
             })
             .state('app.service', {
                 url: 'service',
                 views: {
-                    'content': 'service'
+                    'content': {
+                        templateUrl: '../views/service.html'
+                    }
                 }
             })
             .state('app.aboutus', {
                 url: 'aboutus',
                 views: {
-                    'content': 'aboutus'
+                    'content': {
+                        templateUrl: '../views/aboutus.html'
+                    }
                 }
             })
         ;
-
         $urlRouterProvider.otherwise('/guide');
+
     });
