@@ -9,7 +9,6 @@ app.component(
 
 
             self.$onInit = function() {
-
             };
 
         }

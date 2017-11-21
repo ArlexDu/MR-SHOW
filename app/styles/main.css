@@ -84,6 +84,12 @@ body{
 
 }
 
+html{height:100%;}
+body{min-height:100%;margin:0;padding:0;position:relative;}
+#content{padding-bottom:1.54rem;}
+
+footer{position:absolute;bottom:0;width:100%;height: 1.54rem;}
+
 .bottom_box{
     width: 100%;
     background-color: #333741;
@@ -165,15 +171,7 @@ body{
     font-family: "Microsoft YaHei";
 }
 
-@font-face {
-    font-family: 'SIMYOU';
-    src: url('../fonts/SIMYOU.TTF');
-}
 
-@font-face {
-    font-family: 'msyh';
-    src: url('../fonts/msyh.ttc');
-}
 
 #home_1 {
     width: 100%;
