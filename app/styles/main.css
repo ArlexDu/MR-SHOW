@@ -102,10 +102,10 @@ body{
 
 .bottom_on{
     width: 100%;
-    background-color: #00b3ee;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    padding-top: 0.2rem;
 }
 
 .bottom_on_left{
@@ -113,12 +113,43 @@ body{
     display: flex;
 }
 
-.bottom_on_left div{
+.bottom_on_left img{
+    width: 0.52rem;
+    align-self: flex-start;
+}
+
+.bottom_on_left span{
+    width: 0.01rem;
+    height: 100%;
+    background-color: #666666;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+.text_boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_boxes div{
     font-size: 0.06rem;
+    color: #999999;
+    font-family: "Microsoft YaHei";
 }
 
 .bottom_on_right{
-    background-color: #1b6d85;
+}
+
+.bottom_on_right img{
+    width: 0.625rem;
+}
+
+.bottom_on_right div{
+    font-size: 0.06rem;
+    font-family: "Microsoft YaHei";
+    color: #999999;
+    text-align: center;
 }
 
 .bottom_down{
