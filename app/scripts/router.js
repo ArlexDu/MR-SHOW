@@ -1,57 +1,41 @@
 'use strict';
     app.config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
-        .state('app', {
+            .state('app', {
                 url:'/',
-                abstract: true,
                 views: {
-                    'shell': {
-                        templateUrl: '../views/shell.html',
-                        controller: 'shellController'
-                    }
+                    'shell': 'shell'
                 }
             })
-            .state('guide', {
-                url: '/guide',
-                views: {
-                    'shell': {
-                        templateUrl: '../views/guide.html',
-                        controller: 'guideController'
 
-                    }
+            .state('guide', {
+                url:'/guide',
+                views: {
+                    'shell': 'guide'
                 }
             })
             .state('app.home', {
                 url: 'home',
                 views: {
-                    'content': {
-                        templateUrl: '../views/home.html',
-                        controller: 'homeController'
-                    }
+                    'content': 'home'
                 }
             })
             .state('app.customer', {
                 url: 'customer',
                 views: {
-                    'content': {
-                        templateUrl: '../views/customer.html'
-                    }
+                    'content': 'customer'
                 }
             })
             .state('app.service', {
                 url: 'service',
                 views: {
-                    'content': {
-                        templateUrl: '../views/service.html'
-                    }
+                    'content': 'service'
                 }
             })
             .state('app.aboutus', {
                 url: 'aboutus',
                 views: {
-                    'content': {
-                        templateUrl: '../views/aboutus.html'
-                    }
+                    'content': 'aboutus'
                 }
             })
         ;

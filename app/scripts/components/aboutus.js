@@ -9,7 +9,7 @@ app.component(
 
 
             self.$onInit = function() {
-
+                footerPosition();
             };
 
         }
