@@ -209,6 +209,9 @@ body{
     width: 40%;
     margin-top: 0.2rem;
     text-align: center;
+    font-size: 0.08rem;
+    font-family: "Microsoft YaHei";
+    color: #333741;
 }
 
 #home_3 {
