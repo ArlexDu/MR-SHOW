@@ -1,0 +1,7 @@
+.aboutus-pic{
+    width: 100%;
+    height:width/1920*286;
+    background-image:url('../images/aboutus_intro.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+}

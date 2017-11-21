@@ -17,6 +17,7 @@
                     'shell': {
                         templateUrl: '../views/guide.html',
                         controller: 'guideController'
+
                     }
                 }
             })

@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc overview
- * @name shuapiaoBackWebApp
+ * @name mingruapp
  * @description
  * # app
  *
