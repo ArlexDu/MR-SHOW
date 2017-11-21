@@ -1,22 +1,24 @@
 'use strict';
 
-app.controller('shellController', function ($state) {
+app.component(
+    'shell', {
+        templateUrl: 'views/shell.html',
+        controllerAs: 'shell',
+        controller: function ($state) {
       var self = this;
       self.$onInit = function() {
           footerPosition();
+          console.log(123)
       };
-    function footerPosition(){
-        $("footer").removeClass("fixed-bottom");
-        var contentHeight = document.body.scrollHeight,//网页正文全文高度
-            winHeight = window.innerHeight;//可视窗口高度，不包括浏览器顶部工具栏
-        if(!(contentHeight > winHeight)){
-            //当网页正文高度小于可视窗口高度时，为footer添加类fixed-bottom
-            $("footer").addClass("fixed-bottom");
-        } else {
-            $("footer").removeClass("fixed-bottom");
-        }
-    }
+
 
     $(window).resize(footerPosition);
+    // $scope.currState = $state;
+    // $scope.$watch('currState.current.name', function(newValue, oldValue) {
+    //
+    //     console.log(newValue);
+    // });
+
   }
+    }
 );
