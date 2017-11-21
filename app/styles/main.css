@@ -165,19 +165,8 @@ body{
     font-family: "Microsoft YaHei";
 }
 
-@font-face {
-    font-family: 'SIMYOU';
-    src: url('../fonts/SIMYOU.TTF');
-}
-
-@font-face {
-    font-family: 'msyh';
-    src: url('../fonts/msyh.ttc');
-}
-
-<<<<<<< HEAD
 .fixed-bottom {position: fixed;bottom: 0;width:100%;}
-=======
+
 #home_1 {
     width: 100%;
 }
@@ -263,4 +252,3 @@ body{
 #home_5_group {
     width: 40%;
 }
->>>>>>> d08f7188a0b15abd83d9cd8151c16b689f582a79
