@@ -165,16 +165,6 @@ body{
     font-family: "Microsoft YaHei";
 }
 
-@font-face {
-    font-family: 'SIMYOU';
-    src: url('../fonts/SIMYOU.TTF');
-}
-
-@font-face {
-    font-family: 'msyh';
-    src: url('../fonts/msyh.ttc');
-}
-
 #home_1 {
     width: 100%;
 }
