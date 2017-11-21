@@ -27,4 +27,110 @@ li a:hover {
 
 body{
     background-color: white;
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.container{
+    padding: 0rem;
+}
+
+#header_box{
+    display: flex;
+}
+
+#header_content{
+    width: 100%;
+    display: flex;
+    height: 0.57rem;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0.05rem;
+}
+
+#header_image{
+    align-self: flex-end;
+    display: flex
+}
+
+#header_image img{
+    height: 0.42rem
+}
+
+#header_image span{
+    align-self: flex-end;
+    margin-left: 0.1rem;
+    font-family: 'Microsoft YaHei';
+    color:#999999;
+    font-size: 0.063rem;
+}
+
+#header_bar{
+    right: 0px;
+    width: 40%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_bar div{
+
+}
+
+#header_bar div a{
+    font-family: 'Microsoft YaHei';
+    font-size: 0.073rem;
+    color: #333741;
+
+}
+
+.bottom_box{
+    width: 100%;
+    background-color: #333741;
+    height: 1.54rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom_on{
+    width: 100%;
+    background-color: #00b3ee;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.bottom_on_left{
+    height: 0.52rem;
+    display: flex;
+}
+
+.bottom_on_left div{
+    font-size: 0.06rem;
+}
+
+.bottom_on_right{
+    background-color: #1b6d85;
+}
+
+.bottom_down{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_down span{
+    font-size: 0.06rem;
+    color: #999999;
+    font-family: "Microsoft YaHei";
 }
