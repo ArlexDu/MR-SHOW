@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc overview
- * @name shuapiaoBackWebApp
+ * @name mingruapp
  * @description
  * # app
  *
@@ -18,6 +18,7 @@ var app = angular.module('app', [
     'textAngular',
     'ngFileUpload'
 ]);
+
 app.config(function($httpProvider) {
 
 });

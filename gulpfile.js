@@ -156,8 +156,8 @@ gulp.task('serve', ['browser-sync'], function () {
         .pipe($.plumber())
         .pipe(styles());
   gulp.watch(paths.views.files, ['copy:views']);
-
-  gulp.watch('{app/index.html,app/scripts/**/*.js,.tmp/styles/**/*.css}', ['client:dev']);
+  gulp.watch('app/images/**/*', ['images']);
+  gulp.watch('{app/index.html,app/scripts/**/*.js,app/styles/**/*.css}', ['client:dev']);
   gulp.watch('bower.json', ['bower']);
 });
 
@@ -177,5 +177,5 @@ gulp.task('browser-sync', ['dev'], function () {
       }
    });
    // Watch any files in dist/, reload on change
-   gulp.watch(['dist/**/*']).on('change', browserSync.reload);
+   gulp.watch(['dist/**/*','.tmp/**/*']).on('change', browserSync.reload);
 });

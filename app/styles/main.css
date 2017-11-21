@@ -11,7 +11,6 @@ li {
 }
 
 li a {
-
     display: block;
     color: black;
     text-align: center;
@@ -133,4 +132,14 @@ body{
     font-size: 0.06rem;
     color: #999999;
     font-family: "Microsoft YaHei";
+}
+
+@font-face {
+    font-family: 'SIMYOU';
+    src: url('../fonts/SIMYOU.TTF');
+}
+
+@font-face {
+    font-family: 'msyh';
+    src: url('../fonts/msyh.ttc');
 }
