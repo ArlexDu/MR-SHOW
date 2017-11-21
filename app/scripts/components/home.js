@@ -8,7 +8,6 @@ app.component(
             var self = this;
 
             self.$onInit = function() {
-                footerPosition();
             };
     }
     }
