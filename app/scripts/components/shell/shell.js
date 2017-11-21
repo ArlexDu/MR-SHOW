@@ -10,8 +10,6 @@ app.component(
 
       };
 
-
-    $(window).resize(footerPosition);
     // $scope.currState = $state;
     // $scope.$watch('currState.current.name', function(newValue, oldValue) {
     //
