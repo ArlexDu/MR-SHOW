@@ -175,4 +175,92 @@ body{
     src: url('../fonts/msyh.ttc');
 }
 
+<<<<<<< HEAD
 .fixed-bottom {position: fixed;bottom: 0;width:100%;}
+=======
+#home_1 {
+    width: 100%;
+}
+
+#home_1 img{
+    width: 100%;
+}
+
+#home_2{
+    width: 100%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+#home_2_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home_2_box_aboutus {
+    width: 10%;
+}
+
+#home_2_box_pic {
+    width: 25%;
+    margin-top: 0.2rem;
+}
+
+#home_2_box div{
+    width: 40%;
+    margin-top: 0.2rem;
+    text-align: center;
+    font-size: 0.08rem;
+    font-family: "Microsoft YaHei";
+    color: #333741;
+}
+
+#home_3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F4F8;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+#home_3_history {
+    width: 10%;
+}
+
+#home_3_development{
+    margin-top: 0.2rem;
+    width: 50%;
+}
+
+#home_4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+#home_4_service {
+    width: 10%;
+}
+
+#home_5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    background-image: url("../images/home_5_background.png");
+    background-size: 100% auto;
+}
+
+#home_5_group {
+    width: 40%;
+}
+>>>>>>> d08f7188a0b15abd83d9cd8151c16b689f582a79
