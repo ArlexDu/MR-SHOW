@@ -174,3 +174,5 @@ body{
     font-family: 'msyh';
     src: url('../fonts/msyh.ttc');
 }
+
+.fixed-bottom {position: fixed;bottom: 0;width:100%;}
