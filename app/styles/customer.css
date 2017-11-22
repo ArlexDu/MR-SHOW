@@ -33,5 +33,27 @@
 #customer-content{
     margin-bottom: 5%;
     margin-top: 3%;
-    width: 80%;
+}
+
+.customer-logo {
+    margin-top: 3%;
+}
+
+@media (min-width: 768px) {
+    .customer-logo {
+    }
+}
+
+@media (min-width: 992px) {
+    .customer-logo {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .customer-logo {
+        width: 25%;
+        float: left;
+    }
 }
