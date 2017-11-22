@@ -194,16 +194,32 @@ footer{position:absolute;bottom:0;width:100%;height: 1.54rem;}
     align-items: center;
 }
 
-#home_2_box_aboutus {
-    width: 10%;
-}
-
 #home_2_box_pic {
     width: 25%;
     margin-top: 0.2rem;
 }
 
-#home_2_box div{
+#home_2_box .title {
+    font-family: 'HelveticaNeue-Medium';
+    font-size:32px;
+    color:#333741;
+    letter-spacing:0;
+}
+
+#home_2_box .line {
+    background-image:linear-gradient(-134deg, #1855a7 0%, #c86dd7 100%);
+    width:40px;
+    height:2px;
+}
+
+#home_2_box .title-cn{
+    font-family: 'MicrosoftYaHei';
+    font-size:18px;
+    color:#999999;
+    letter-spacing:6px;
+}
+
+#home_2_box .words{
     width: 40%;
     margin-top: 0.2rem;
     text-align: center;
@@ -222,10 +238,25 @@ footer{position:absolute;bottom:0;width:100%;height: 1.54rem;}
     padding-bottom: 0.2rem;
 }
 
-#home_3_history {
-    width: 10%;
+#home_3 .title {
+    font-family: 'HelveticaNeue-Medium';
+    font-size:32px;
+    color:#333741;
+    letter-spacing:0;
 }
 
+#home_3 .line {
+    background-image:linear-gradient(-134deg, #1855a7 0%, #c86dd7 100%);
+    width:40px;
+    height:2px;
+}
+
+#home_3 .title-cn{
+    font-family: 'MicrosoftYaHei';
+    font-size:18px;
+    color:#999999;
+    letter-spacing:6px;
+}
 #home_3_development{
     margin-top: 0.2rem;
     width: 50%;
@@ -240,8 +271,24 @@ footer{position:absolute;bottom:0;width:100%;height: 1.54rem;}
     padding-bottom: 0.2rem;
 }
 
-#home_4_service {
-    width: 10%;
+#home_4 .title {
+    font-family: 'HelveticaNeue-Medium';
+    font-size:32px;
+    color:#333741;
+    letter-spacing:0;
+}
+
+#home_4 .line {
+    background-image:linear-gradient(-134deg, #1855a7 0%, #c86dd7 100%);
+    width:40px;
+    height:2px;
+}
+
+#home_4 .title-cn{
+    font-family: 'MicrosoftYaHei';
+    font-size:18px;
+    color:#999999;
+    letter-spacing:6px;
 }
 
 #home_5 {
