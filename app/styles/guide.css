@@ -33,7 +33,7 @@
     width:100%;
     padding-bottom: 10%;
     height:0px;
-    background-image: url("../images/guideTitle1.gif");
+    background-image: url("../images/title_en.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -44,7 +44,7 @@
     width:30%;
     padding-bottom: 14%;
     height:0px;
-    background-image: url("../images/guideTitle2.gif");
+    background-image: url("../images/title-cn.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
