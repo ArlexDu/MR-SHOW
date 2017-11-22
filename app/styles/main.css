@@ -11,145 +11,142 @@ body{
 
 #header_box{
     display: flex;
-}
-
-#header_content{
-    width: 100%;
-    display: flex;
-    height: 0.57rem;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 0.05rem;
-}
-
-#header_image{
-    align-self: flex-end;
-    display: flex
-}
-
-#header_image img{
-    height: 0.42rem
-}
-
-#header_image span{
-    align-self: flex-end;
-    margin-left: 0.1rem;
-    font-family: 'Microsoft YaHei';
-    color:#999999;
-    font-size: 0.063rem;
-}
-
-#header_bar{
-    right: 0px;
-    width: 40%;
-    align-self: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-#header_bar div{
-
-}
-
-#header_bar div a{
-    font-family: 'Microsoft YaHei';
-    font-size: 0.073rem;
-    color: #333741;
-
+    justify-content: center;
 }
 
 html{height:100%;}
 body{min-height:100%;margin:0;padding:0;position:relative;}
-#main-content{padding-bottom:1.54rem;}
+/*#main-content{padding-bottom:1.54rem;}*/
 
-footer{position:absolute;bottom:0;width:100%;height: 1.54rem;}
+/*footer{position:absolute;bottom:0;width:100%;height: 1.54rem;}*/
 
-.bottom_box{
-    width: 100%;
-    background-color: #333741;
-    height: 1.54rem;
-    display: flex;
-    justify-content: center;
-}
 
-.bottom_content{
-    width: 60%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.bottom_on{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding-top: 0.2rem;
-}
-
-.bottom_on_left{
-    height: 0.52rem;
-    display: flex;
-}
-
-.bottom_on_left img{
-    width: 0.52rem;
-    align-self: flex-start;
-}
-
-.bottom_on_left span{
-    width: 0.01rem;
-    height: 100%;
-    background-color: #666666;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
-}
-
-.text_boxes{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.text_boxes div{
-    font-size: 0.06rem;
-    color: #999999;
-    font-family: "Microsoft YaHei";
-}
-
-.bottom_on_right{
-}
-
-.bottom_on_right img{
-    width: 0.625rem;
-}
-
-.bottom_on_right div{
-    font-size: 0.06rem;
-    font-family: "Microsoft YaHei";
-    color: #999999;
-    text-align: center;
-}
-
-.bottom_down{
-    width: 100%;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.bottom_down span{
-    font-size: 0.06rem;
-    color: #999999;
-    font-family: "Microsoft YaHei";
-}
 
 
 
 
 
 @media (max-width: 768px) {
+    .bottom_box{
+        width: 100%;
+        background-color: #333741;
+        height: 170px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom_content{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .bottom_on{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 0.2rem;
+    }
+
+    .bottom_on_left{
+        height: 80px;
+        display: flex;
+    }
+
+    .bottom_on_left img{
+        width: 80px;
+        align-self: flex-start;
+    }
+
+    .bottom_on_left span{
+        width: 2px;
+        height: 100%;
+        background-color: #666666;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .text_boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .text_boxes div{
+        font-size: 10px;
+        color: #999999;
+        font-family: "Microsoft YaHei";
+    }
+
+    .bottom_on_right img{
+        width: 80px;
+    }
+
+    .bottom_on_right div{
+        font-size: 10px;
+        font-family: "Microsoft YaHei";
+        color: #999999;
+        text-align: center;
+    }
+
+    .bottom_down{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom_down span{
+        font-size: 10px;
+        color: #999999;
+        font-family: "Microsoft YaHei";
+    }
+
+    #header_content{
+        width: 80%;
+        display: flex;
+        height: 80px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 5px;
+    }
+
+    #header_image{
+        align-self: flex-end;
+        display: flex
+    }
+
+    #header_image img{
+        height: 50px
+    }
+
+    #header_image span{
+        align-self: flex-end;
+        margin-left: 16px;
+        font-family: 'Microsoft YaHei';
+        color:#999999;
+        font-size: 12px;
+    }
+
+    #header_bar{
+        right: 0px;
+        width: 60%;
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    #header_bar div a{
+        font-family: 'Microsoft YaHei';
+        font-size: 12px;
+        color: #333741;
+
+    }
+
     home_1 {
         width: 100%;
     }
@@ -288,6 +285,124 @@ footer{position:absolute;bottom:0;width:100%;height: 1.54rem;}
 }
 
 @media (min-width: 768px) {
+    .bottom_box{
+        width: 100%;
+        background-color: #333741;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom_content{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .bottom_on{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 0.2rem;
+    }
+
+    .bottom_on_left{
+        height: 90px;
+        display: flex;
+    }
+
+    .bottom_on_left img{
+        width: 90px;
+        align-self: flex-start;
+    }
+
+    .bottom_on_left span{
+        width: 2px;
+        height: 100%;
+        background-color: #666666;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .text_boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .text_boxes div{
+        font-size: 11px;
+        color: #999999;
+        font-family: "Microsoft YaHei";
+    }
+
+    .bottom_on_right img{
+        width: 90px;
+    }
+
+    .bottom_on_right div{
+        font-size: 11px;
+        font-family: "Microsoft YaHei";
+        color: #999999;
+        text-align: center;
+    }
+
+    .bottom_down{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom_down span{
+        font-size: 11px;
+        color: #999999;
+        font-family: "Microsoft YaHei";
+    }
+    #header_content{
+        width: 70%;
+        display: flex;
+        height: 100px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    #header_image{
+        align-self: flex-end;
+        display: flex
+    }
+
+    #header_image img{
+        height: 70px
+    }
+
+    #header_image span{
+        align-self: flex-end;
+        margin-left: 20px;
+        font-family: 'Microsoft YaHei';
+        color:#999999;
+        font-size: 13px;
+    }
+
+    #header_bar{
+        right: 0px;
+        width: 50%;
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    #header_bar div a{
+        font-family: 'Microsoft YaHei';
+        font-size: 14px;
+        color: #333741;
+
+    }
     home_1 {
         width: 100%;
     }
@@ -425,6 +540,126 @@ footer{position:absolute;bottom:0;width:100%;height: 1.54rem;}
 }
 
 @media (min-width: 1200px) {
+    .bottom_box{
+        width: 100%;
+        background-color: #333741;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom_content{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .bottom_on{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 0.2rem;
+    }
+
+    .bottom_on_left{
+        height: 100px;
+        display: flex;
+    }
+
+    .bottom_on_left img{
+        width: 100px;
+        align-self: flex-start;
+    }
+
+    .bottom_on_left span{
+        width: 2px;
+        height: 100%;
+        background-color: #666666;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text_boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .text_boxes div{
+        font-size: 12px;
+        color: #999999;
+        font-family: "Microsoft YaHei";
+    }
+
+    .bottom_on_right img{
+        width: 100px;
+    }
+
+    .bottom_on_right div{
+        font-size: 12px;
+        font-family: "Microsoft YaHei";
+        color: #999999;
+        text-align: center;
+    }
+
+    .bottom_down{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom_down span{
+        font-size: 12px;
+        color: #999999;
+        font-family: "Microsoft YaHei";
+    }
+    #header_content{
+        width: 60%;
+        display: flex;
+        height: 110px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    #header_image{
+        align-self: flex-end;
+        display: flex
+    }
+
+    #header_image img{
+        height: 80px
+    }
+
+    #header_image span{
+        align-self: flex-end;
+        margin-left: 20px;
+        font-family: 'Microsoft YaHei';
+        color:#999999;
+        font-size: 14px;
+    }
+
+    #header_bar{
+        right: 0px;
+        width: 40%;
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    #header_bar div a{
+        font-family: 'Microsoft YaHei';
+        font-size: 16px;
+        color: #333741;
+
+    }
+
+
     #home_1 {
         width: 100%;
     }
@@ -551,7 +786,8 @@ footer{position:absolute;bottom:0;width:100%;height: 1.54rem;}
         padding-top: 40px;
         padding-bottom: 40px;
         background-image: url("../images/home_5_background.png");
-        background-size: 100% auto;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     #home_5_group {
