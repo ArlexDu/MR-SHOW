@@ -8,6 +8,6 @@ gulp serve
 npm run server
 
 # 移动端适配字体
-* >1200px 16px
-* 768~1200 14px
-* <768 12px
+*  >1200px 16px
+*  768~1200 14px
+*  <768 12px
