@@ -7,6 +7,7 @@ var del = require('del');
 var wiredep = require('wiredep').stream;
 var runSequence = require('run-sequence');
 var browserSync = require('browser-sync');
+var vinylPaths = require('vinyl-paths');
 
 var app = {
   app: require('./bower.json').appPath || 'app',
@@ -83,6 +84,13 @@ gulp.task('client:build', ['lint:scripts', 'styles', 'copy:views'], function () 
     .pipe(gulp.dest(app.dist));
 });
 
+gulp.task('rename',['client:build'], function () {
+    return gulp.src(app.dist + '/index-*.html')
+        .pipe(vinylPaths(del))
+        .pipe($.rename('index.html',{deleteOrigin:true}))
+        .pipe(gulp.dest(app.dist));
+});
+
   // gulp.task('client:dev', ['styles', 'copy:views'], function () {
   gulp.task('client:dev', ['lint:scripts', 'styles', 'copy:views'], function () {
   // var jsFilter = $.filter('**/*.js', {restore: true});
@@ -141,7 +149,7 @@ gulp.task('copy:fonts', function () {
 });
 
 gulp.task('build', ['clean:dist'], function () {
-  runSequence(['images', 'copy:extras', 'copy:fonts', 'client:build']);
+  runSequence(['images', 'copy:extras', 'copy:fonts', 'rename']);
 });
 
 gulp.task('dev', ['clean:dist'], function () {
