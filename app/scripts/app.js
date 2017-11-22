@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc overview
- * @name mingruapp
+ * @name shuapiaoBackWebApp
  * @description
  * # app
  *
@@ -10,15 +10,9 @@
  */
 
 var app = angular.module('app', [
-    'ngAnimate',
-    'ngMessages',
-    'ngResource',
     'ui.router',
-    'ui.bootstrap',
-    'textAngular',
-    'ngFileUpload'
+    'ui.bootstrap'
 ]);
-
 app.config(function($httpProvider) {
 
 });
