@@ -81,11 +81,16 @@
     float: left;
 }
 
+.box-detail {
+    font-size: 10px;
+}
+
 @media (min-width: 768px) {
     .col-sm-1-5 {
         width: 20%;
         float: left;
     }
+
 }
 
 @media (min-width: 992px) {
@@ -93,6 +98,7 @@
         width: 20%;
         float: left;
     }
+
 }
 
 @media (min-width: 1200px) {
@@ -100,4 +106,17 @@
         width: 20%;
         float: left;
     }
+
+    .box-detail {
+        font-size: 12px;
+    }
+
 }
+
+@media (min-width: 1400px) {
+    .box-detail {
+        font-size: 16px;
+    }
+}
+
+
