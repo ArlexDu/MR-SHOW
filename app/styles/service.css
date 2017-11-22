@@ -18,7 +18,7 @@
 }
 
 #service-intro .title{
-    margin-top:40px;
+    margin-top:20px;
     font-family: 'HelveticaNeue-Medium';
     font-size:32px;
     color:#333741;
@@ -47,6 +47,7 @@
     letter-spacing: 0;
     line-height: 25px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .box img{
@@ -91,6 +92,10 @@
         float: left;
     }
 
+    .box-detail {
+        font-size: 11px;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -109,6 +114,14 @@
 
     .box-detail {
         font-size: 12px;
+    }
+
+    #service-intro .title{
+        margin-top:40px;
+    }
+
+    #service-intro .content {
+        padding-bottom: 60px;
     }
 
 }
