@@ -18,9 +18,9 @@
 }
 
 #service-intro .title{
-    margin-top:40px;
+    margin-top:20px;
     font-family: 'HelveticaNeue-Medium';
-    font-size:32px;
+    font-size:24px;
     color:#333741;
     letter-spacing:0;
 }
@@ -33,7 +33,7 @@
 
 #service-intro .title-cn{
     font-family: 'MicrosoftYaHei';
-    font-size:18px;
+    font-size:13px;
     color:#999999;
     letter-spacing:6px;
 }
@@ -47,6 +47,7 @@
     letter-spacing: 0;
     line-height: 25px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .box img{
@@ -81,10 +82,27 @@
     float: left;
 }
 
+.box-detail {
+    font-size: 10px;
+}
+
 @media (min-width: 768px) {
     .col-sm-1-5 {
         width: 20%;
         float: left;
+    }
+
+    .box-detail {
+        font-size: 11px;
+    }
+
+    #service-intro .title{
+        margin-top:30px;
+        font-size: 28px;
+    }
+
+    #service-intro .title-cn{
+        font-size: 15px;
     }
 }
 
@@ -93,6 +111,7 @@
         width: 20%;
         float: left;
     }
+
 }
 
 @media (min-width: 1200px) {
@@ -100,4 +119,30 @@
         width: 20%;
         float: left;
     }
+
+    .box-detail {
+        font-size: 12px;
+    }
+
+    #service-intro .title{
+        margin-top:40px;
+        font-size: 32px;
+    }
+
+    #service-intro .content {
+        padding-bottom: 60px;
+    }
+
+    #service-intro .title-cn{
+        font-size: 18px;
+    }
+
 }
+
+@media (min-width: 1400px) {
+    .box-detail {
+        font-size: 16px;
+    }
+}
+
+
