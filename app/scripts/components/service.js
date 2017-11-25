@@ -9,6 +9,8 @@ app.component(
 
 
             self.$onInit = function() {
+                $("#header_bar a").css("color","black");
+                $("#service_bar a").css("color","blue");
             };
 
         }
