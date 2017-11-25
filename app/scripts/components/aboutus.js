@@ -9,8 +9,8 @@ app.component(
 
 
             self.$onInit = function() {
-                $("#header_bar a").css("color","black");
-                $("#aboutus_bar a").css("color","blue");
+                $("#header_bar span").css("color","black");
+                $("#aboutus_bar span").css("color","#1855a7");
             };
 
         }
